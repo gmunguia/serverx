@@ -1,0 +1,35 @@
+{
+  "name": "serverx",
+  "version": "1.0.0",
+  "description": "Reactive http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "GMunguia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "rxjs": "^5.5.6",
+    "server": "^1.0.12"
+  },
+  "devDependencies": {
+    "cookie": "^0.3.1",
+    "jest": "^22.0.4",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmunguia/serverx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmunguia/serverx/issues"
+  },
+  "homepage": "https://github.com/gmunguia/serverx#readme"
+}
